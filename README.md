@@ -27,14 +27,14 @@ Open http://localhost:5173 and move your mouse! 🖱️
 
 
 ## 🛠️ Project Structure
-```
+<pre>
 text
 reactpage/
 ├── index.html     # Main HTML
 ├── main.js       # WebGL + shaders
 ├── style.css     # Canvas styles
 └── package.json  # Vite config
-```
+</pre>
 
 ## 🔧 Build & Deploy
 ```bash
@@ -44,11 +44,11 @@ npm run preview # Preview build
 ```
 
 ## 📱 Live Demo Features
-Hover → Ripples + color shifts
+1. Hover → Ripples + color shifts
 
-Click → Position refresh
+2. Click → Position refresh
 
-Resize → Adaptive redraw
+3. Resize → Adaptive redraw
 
 ## 🔮 Future Ideas
 - [x] Touch events for mobile
